@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parabéns</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        background-color: #28a745; /* Cor verde */
+        color: white;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .main {
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      .icon img {
+        width: 100px;
+        height: 100px;
+      }
+      .congratulations {
+        font-size: 2.5em;
+        color: #32cd32; /* Verde claro */
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-shadow: 0 0 10px #32cd32; /* Sombra brilhante */
+      }
+      .progress-bar {
+        background-color: #32cd32; /* Verde claro */
+        color: white;
+        width: 94%;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-shadow: 0 0 5px #32cd32; /* Sombra brilhante */
+      }
+      .info {
+        font-size: 1.1em;
+        margin: 20px 0;
+      }
+      .info .price {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .faq {
+        margin-top: 20px;
+        text-align: left;
+      }
+      .faq p {
+        margin: 10px 0;
+      }
+      .faq strong {
+        color: #333;
+      }
+      .button-container {
+        margin-top: 20px;
+      }
+      .button {
+        background-color: #32cd32; /* Verde claro brilhante */
+        color: white;
+        padding: 15px 25px;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-shadow: 0 0 5px #32cd32; /* Efeito brilhante */
+        animation: bounce 1.5s infinite;
+        text-decoration: none; /* Remove underline */
+      }
+      @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-10px);
+        }
+        60% {
+          transform: translateY(-5px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <p>
+        PARABÉNS!!!! VOCÊ FOI SELECIONADO PARA UMA PROMOÇÃO IMPERDÍVEL, DE
+        <span style="text-decoration: line-through">R$ 19,90</span>
+        <span style="color: yellow">POR R$ 9,90</span>. QUEREMOS E PRECISAMOS DE
+        PESSOAS COM SEU PERFIL NO NOSSO APLICATIVO PARA NOS AJUDAR A AVALIAR AS
+        EMPRESAS E QUE POSSAM SER RECOMPENSADAS POR ISSO, APROVEITE ESSA
+        OPORTUNIDADE.
+      </p>
+    </div>
+    <div class="main">
+      <div class="icon">
+        <img src="images/check-icon.png" alt="Ícone de verificação" />
+      </div>
+      <div class="congratulations">Parabéns</div>
+      <div class="progress-bar">ÚLTIMA OPORTUNIDADE PARA RECEBER SEU SAQUE</div>
+      <div class="info">
+        <p>
+          Sua vaga está garantida! Fique tranquilo(a),
+          <span class="price">o valor será devolvido após a verificação</span>.
+          Pague apenas <span class="price">R$9,90</span> para receber o saque.
+        </p>
+        <p style="color: #28a745">Após pagar, o saque cairá na sua conta.</p>
+      </div>
+      <div class="faq">
+        <!-- Seção "Dúvidas frequentes" foi removida -->
+      </div>
+      <div class="button-container">
+        <a href="https://go.tribopay.com/20aj5" class="button">CLIQUE AQUI</a>
+      </div>
+    </div>
+  </body>
+</html>
